@@ -1,4 +1,4 @@
-;;; subatomic-theme.el --- Nice looking wmacs 24 theme
+;;; subatomic-theme.el --- Nice looking emacs 24 theme
 
 ;; Copyright 2012 John Olsson
 
