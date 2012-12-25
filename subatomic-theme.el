@@ -1,6 +1,10 @@
-;; subatomic-theme.el
-;;
-;; Copyright 2012 John Olsson (john@cryon.se)
+;;; subatomic-theme.el --- Nice looking wmacs 24 theme
+
+;; Copyright 2012 John Olsson
+
+;;; Author: John Olsson <john@cryon.se>
+;;; URL: https://github.com/cryon/subatomic
+;;; Version: 1.0
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -577,3 +581,6 @@
    (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'subatomic)
+
+
+;;; subatomic-theme.el ends here
