@@ -2,9 +2,9 @@
 
 ;; Copyright 2012 John Olsson
 
-;;; Author: John Olsson <john@cryon.se>
-;;; URL: https://github.com/cryon/subatomic
-;;; Version: 1.0
+;; Author: John Olsson <john@cryon.se>
+;; URL: https://github.com/cryon/subatomic
+;; Version: 1.0
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -573,7 +573,6 @@
 
    ))
 
-;; finally
 ;;;###autoload
 (when load-file-name
   (add-to-list
@@ -581,6 +580,5 @@
    (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'subatomic)
-
 
 ;;; subatomic-theme.el ends here
