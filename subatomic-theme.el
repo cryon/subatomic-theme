@@ -4,7 +4,7 @@
 
 ;; Author: John Olsson <john@cryon.se>
 ;; URL: https://github.com/cryon/subatomic
-;; Version: 1.0
+;; Version: 1.1
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -301,7 +301,8 @@
 
    ;; magit
 
-   ;; magit-branch
+   `(magit-branch
+     ((t (:foreground ,jungle-green :weight bold))))
 
    `(magit-diff-add
      ((t (:inherit diff-added))))
