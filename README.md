@@ -23,6 +23,18 @@ Or if you want to do it in your init file, add:
 (load-theme 'subatomic t)
 ```
 
+Manual installation
+-------------------
+If you prefer, you can install Subatomic manually by downloading <code>subatomic-theme.el</code> and place it somewhere in your <code>custom-theme-load-path</code>.
+
+You can set your <code>custom-theme-load-path</code> by adding this to your <code>.emacs.d</code> or <code>.emacs.d/init.el</code>:
+
+```lisp
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+```
+
+You should now be able to load Subatomic with <code>M-x load-theme RET subatomic</code>!
+
 Improvements
 ============
 

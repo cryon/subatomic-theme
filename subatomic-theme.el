@@ -4,7 +4,7 @@
 
 ;; Author: John Olsson <john@cryon.se>
 ;; URL: https://github.com/cryon/subatomic
-;; Version: 1.1
+;; Version: 1.2
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -158,6 +158,14 @@
 
    `(font-lock-doc-face
      ((t (:foreground ,axiomatic-purple :italic t))))
+
+   ;; flymake
+
+   `(flymake-errline
+     ((t (:underline ,full-red))))
+
+   `(flymake-warnline
+     ((t (:underline ,full-yellow))))
 
    ;; eshell
 
