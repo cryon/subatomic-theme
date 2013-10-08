@@ -4,7 +4,7 @@
 
 ;; Author: John Olsson <john@cryon.se>
 ;; URL: https://github.com/cryon/subatomic
-;; Version: 1.2
+;; Version: 1.3
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -32,6 +32,7 @@
       (jungle-green      "#a9dc69")
       (undergrowth-green "#81a257")
       (deep-gold         "#f9b529")
+      (bright-gold       "#ffd700")
       (axiomatic-purple  "#9c71a5")
       (brick-red         "#ea8673")
       (piggy-pink        "#feccd4")
@@ -580,6 +581,22 @@
     `(diredp-ignored-file-name
       ((t (:foreground ,midnight-3))))
 
+    ;; nXML
+
+    `(nxml-cdata-section-CDATA
+      ((t (:foreground ,deep-gold))))
+
+    `(nxml-cdata-section-content
+      ((t (:foreground ,cold-mud))))
+
+    `(nxml-attribute-local-name
+      ((t (:foreground ,relaxed-white))))
+
+    `(nxml-element-local-name
+      ((t (:foreground ,victory-blue))))
+
+    `(nxml-element-prefix
+      ((t (:foreground ,deep-gold))))
    ))
 
 ;;;###autoload
