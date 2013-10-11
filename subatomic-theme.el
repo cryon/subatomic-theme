@@ -398,22 +398,22 @@
       ((t (:foreground ,deep-gold :weight bold))))
 
     `(outline-2
+      ((t (:foreground ,victory-blue+1 :weight bold))))
+
+    `(outline-3
       ((t (:foreground ,jungle-green :weight bold))))
 
     `(outline-4
-      ((t (:foreground ,relaxed-white :weight bold))))
-
-    `(outline-3
-      ((t (:foreground ,cold-mud :weight bold))))
+      ((t (:foreground ,brick-red :weight bold))))
 
     `(outline-5
-      ((t (:foreground ,victory-blue+1 :weight bold))))
-
-    `(outline-6
       ((t (:foreground ,axiomatic-purple :weight bold))))
 
-    `(outline-7
+    `(outline-6
       ((t (:foreground ,undergrowth-green :weight bold))))
+
+    `(outline-7
+      ((t (:foreground ,mystic-blue :weight bold))))
 
     `(outline-8
       ((t (:foreground ,mystic-blue :weight bold))))
