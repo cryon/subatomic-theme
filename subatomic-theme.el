@@ -1,6 +1,6 @@
 ;;; subatomic-theme.el --- Nice looking emacs 24 theme
 
-;; Copyright 2012 John Olsson
+;; Copyright 2012, 2013 John Olsson
 
 ;; Author: John Olsson <john@cryon.se>
 ;; URL: https://github.com/cryon/subatomic
