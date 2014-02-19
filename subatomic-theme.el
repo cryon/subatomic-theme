@@ -579,7 +579,7 @@
       ((t (:foreground ,deep-gold))))
 
     `(diredp-ignored-file-name
-      ((t (:foreground ,midnight-3))))
+      ((t (:foreground ,mystic-blue))))
 
     ;; nXML
 
