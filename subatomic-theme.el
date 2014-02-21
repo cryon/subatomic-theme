@@ -1,4 +1,4 @@
-;;; subatomic-theme.el --- Nice looking emacs 24 theme
+;;; subatomic-theme.el --- Low contrast (awesome) emacs color theme
 
 ;; Copyright 2012, 2013, 2014 John Olsson
 
