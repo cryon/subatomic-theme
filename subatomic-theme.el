@@ -220,6 +220,28 @@
    `(diary-face
      ((t (:foreground ,axiomatic-purple))))
 
+   ;; ido-mode
+
+   `(ido-subdir
+     ((t (:inherit eshell-ls-directory))))
+
+   `(ido-only-match
+     ((t (:foreground ,jungle-green :bold t))))
+
+   `(ido-first-match
+     ((t (:foreground ,deep-gold :bold t))))
+
+   `(ido-virtual
+     ((t (:inherit font-lock-comment-face))))
+
+   ;; Can't really figure out what these are for...
+
+   ;;   `(ido-indicator
+   ;;     ((t (:foreground ,brick-red :bold t))))
+   ;;
+   ;;   `(ido-inclomplete-regexp
+   ;;     ((t (:foreground ,piggy-pink))))
+
    ;; erc
 
    `(erc-default-face
@@ -307,7 +329,6 @@
    `(diff-refine-change
      ((t (:background ,midnight-3 :foreground ,full-white :weight bold))))
 
-
    ;; magit
 
    `(magit-branch
@@ -374,6 +395,7 @@
      ((t (:inherit font-lock-warning))))
 
    ;; compilation
+
    `(compilation-info
      ((t (:inherit default))))
 
