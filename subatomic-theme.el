@@ -4,7 +4,7 @@
 
 ;; Author: John Olsson <john@cryon.se>
 ;; URL: https://github.com/cryon/subatomic
-;; Version: 1.4.0
+;; Version: 1.5.0
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -241,6 +241,65 @@
    ;;
    ;;   `(ido-inclomplete-regexp
    ;;     ((t (:foreground ,piggy-pink))))
+
+   ;; jabber
+
+   `(jabber-roster-user-online
+     ((t (:foreground ,jungle-green))))
+
+   `(jabber-roster-user-offline
+     ((t (:foreground ,mystic-blue))))
+
+   `(jabber-roster-user-dnd
+     ((t (:foreground ,brick-red))))
+
+   `(jabber-roster-user-away
+     ((t (:foreground ,cold-mud))))
+
+   `(jabber-roster-user-chatty
+     ((t (:foreground ,victory-blue+1 :bold t))))
+
+   `(jabber-roster-user-xa
+     ((t (:foreground ,brick-red))))
+
+   `(jabber-roster-user-error
+     ((t (:foreground ,full-red))))
+
+   `(jabber-chat-prompt-local
+     ((t (:foreground ,victory-blue+1))))
+
+   `(jabber-chat-prompt-foreign
+     ((t (:foreground ,cold-mud))))
+
+   `(jabber-chat-text-local
+     ((t (:foreground ,relaxed-white))))
+
+   `(jabber-chat-text-foreign
+     ((t (:foreground ,relaxed-white))))
+
+   `(jabber-rare-time-face
+     ((t (:foreground ,mystic-blue :bold t))))
+
+   `(jabber-activity-face
+     ((t (:foreground ,deep-gold :bold t))))
+
+   `(jabber-activity-personal-face
+     ((t (:foreground ,cold-mud :bold t))))
+
+   `(jabber-chat-error
+     ((t (:foreground ,full-red))))
+
+   `(jabber-chat-prompt-system
+     ((t (:foreground ,full-red))))
+
+   `(jabber-title-large
+     ((t (:foreground ,deep-gold :height 1.3 :bold t))))
+
+   `(jabber-title-medium
+     ((t (:foreground ,deep-gold :bold t))))
+
+   `(jabber-title-small
+     ((t (:foreground ,deep-gold))))
 
    ;; erc
 
