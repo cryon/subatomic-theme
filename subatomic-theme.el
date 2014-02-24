@@ -22,7 +22,17 @@
 (deftheme subatomic
   "subatomic emacs theme")
 
-(let ((midnight          "#303347")
+(defgroup subatomic nil
+  "Subatomic theme options.
+The theme has to be reloaded after changing anything in this group."
+  :group 'faces)
+
+(defcustom subatomic-high-contrast nil
+  "Makes the general contrast higher by setting the background as black"
+  :type 'boolean
+  :group 'subatomic)
+
+(let ((midnight          (if subatomic-high-contrast "#000000" "#303347"))
       (midnight-1        "#2e3043")
       (midnight-2        "#2a2c3e")
       (midnight-3        "#232533")
@@ -105,7 +115,7 @@
      ((t (:background ,midnight-3 :foreground ,full-white :weight bold))))
 
    `(hl-line
-     ((t (:background ,midnight-1))))
+     ((t (:background ,(if subatomic-high-contrast midnight-3 midnight-1)))))
 
    `(highlight-current-line-face
      ((t (:inherit hl-line))))
