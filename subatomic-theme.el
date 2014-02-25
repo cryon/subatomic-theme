@@ -67,6 +67,9 @@ The theme has to be reloaded after changing anything in this group."
 
    `(fringe
      ((t (:background ,midnight))))
+     	
+   `(linum 
+      ((t (:background, midnight :foreground, relaxed-white))))
 
    `(vertical-border
      ((t (:foreground ,midnight-2))))
