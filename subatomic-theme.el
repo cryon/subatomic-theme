@@ -67,9 +67,9 @@ The theme has to be reloaded after changing anything in this group."
 
    `(fringe
      ((t (:background ,midnight))))
-     	
-   `(linum 
-      ((t (:background ,midnight :foreground ,mystic-blue))))
+
+   `(linum
+     ((t (:background ,midnight :foreground ,mystic-blue))))
 
    `(vertical-border
      ((t (:foreground ,midnight-2))))
@@ -384,7 +384,7 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:foreground ,deep-gold))))
 
    `(diff-indicator-removed
-    ((t (:foreground ,full-red :weight bold))))
+     ((t (:foreground ,full-red :weight bold))))
 
    `(diff-removed
      ((t (:foreground ,brick-red))))
@@ -428,7 +428,7 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:background ,midnight-2))))
 
    `(magit-item-mark
-      ((t (:background ,midnight-2))))
+     ((t (:background ,midnight-2))))
 
    `(magit-log-graph
      ((t (:foreground ,victory-blue))))
@@ -493,238 +493,238 @@ The theme has to be reloaded after changing anything in this group."
    `(twittering-username-face
      ((t (:inherit font-lock-keyword-face))))
 
-    `(twittering-uri-face
-      ((t (:inherit link))))
+   `(twittering-uri-face
+     ((t (:inherit link))))
 
-    `(twittering-timeline-header-face
-      ((t (:foreground ,cold-mud :weight bold))))
+   `(twittering-timeline-header-face
+     ((t (:foreground ,cold-mud :weight bold))))
 
-    `(twittering-timeline-footer-face
-      ((t (:inherit twittering-timeline-header-face))))
+   `(twittering-timeline-footer-face
+     ((t (:inherit twittering-timeline-header-face))))
 
-    ;; outline
-    `(outline-1
-      ((t (:foreground ,deep-gold :weight bold))))
+   ;; outline
+   `(outline-1
+     ((t (:foreground ,deep-gold :weight bold))))
 
-    `(outline-2
-      ((t (:foreground ,victory-blue+1 :weight bold))))
+   `(outline-2
+     ((t (:foreground ,victory-blue+1 :weight bold))))
 
-    `(outline-3
-      ((t (:foreground ,jungle-green :weight bold))))
+   `(outline-3
+     ((t (:foreground ,jungle-green :weight bold))))
 
-    `(outline-4
-      ((t (:foreground ,brick-red :weight bold))))
+   `(outline-4
+     ((t (:foreground ,brick-red :weight bold))))
 
-    `(outline-5
-      ((t (:foreground ,axiomatic-purple :weight bold))))
+   `(outline-5
+     ((t (:foreground ,axiomatic-purple :weight bold))))
 
-    `(outline-6
-      ((t (:foreground ,undergrowth-green :weight bold))))
+   `(outline-6
+     ((t (:foreground ,undergrowth-green :weight bold))))
 
-    `(outline-7
-      ((t (:foreground ,mystic-blue :weight bold))))
+   `(outline-7
+     ((t (:foreground ,mystic-blue :weight bold))))
 
-    `(outline-8
-      ((t (:foreground ,mystic-blue :weight bold))))
+   `(outline-8
+     ((t (:foreground ,mystic-blue :weight bold))))
 
-    ;; org-mode
-    `(org-level-1
-      ((t (:inherit outline-1))))
+   ;; org-mode
+   `(org-level-1
+     ((t (:inherit outline-1))))
 
-    `(org-level-2
-      ((t (:inherit outline-2))))
+   `(org-level-2
+     ((t (:inherit outline-2))))
 
-    `(org-level-3
-      ((t (:inherit outline-3))))
+   `(org-level-3
+     ((t (:inherit outline-3))))
 
-    `(org-level-4
-      ((t (:inherit outline-4))))
+   `(org-level-4
+     ((t (:inherit outline-4))))
 
-    `(org-level-5
-      ((t (:inherit outline-5))))
+   `(org-level-5
+     ((t (:inherit outline-5))))
 
-    `(org-level-6
-      ((t (:inherit outline-6))))
+   `(org-level-6
+     ((t (:inherit outline-6))))
 
-    `(org-level-7
-      ((t (:inherit outline-7))))
+   `(org-level-7
+     ((t (:inherit outline-7))))
 
-    `(org-level-8
-      ((t (:inherit outline-8))))
+   `(org-level-8
+     ((t (:inherit outline-8))))
 
-    `(org-hide
-      ((t (:foreground ,midnight))))   ;
+   `(org-hide
+     ((t (:foreground ,midnight))))
 
-    `(org-link
-      ((t (:inherit link))))
+   `(org-link
+     ((t (:inherit link))))
 
-    `(org-checkbox
-      ((t (:background ,midnight :foreground ,full-white :weight bold
-    		       :box (:line-width 1 :style released-button)))))
+   `(org-checkbox
+     ((t (:background ,midnight :foreground ,full-white :weight bold
+                      :box (:line-width 1 :style released-button)))))
 
-    `(org-done
-      ((t (:foreground ,jungle-green :weight bold))))
+   `(org-done
+     ((t (:foreground ,jungle-green :weight bold))))
 
-    `(org-todo
-      ((t (:foreground ,piggy-pink :weight bold))))
+   `(org-todo
+     ((t (:foreground ,piggy-pink :weight bold))))
 
-    `(org-table
-      ((t (:foreground ,cold-mud))))
+   `(org-table
+     ((t (:foreground ,cold-mud))))
 
-    `(org-date
-      ((t (:foreground ,piggy-pink :weight bold))))
+   `(org-date
+     ((t (:foreground ,piggy-pink :weight bold))))
 
-    `(org-document-info-keyword
-      ((t (:foreground ,mystic-blue))))
+   `(org-document-info-keyword
+     ((t (:foreground ,mystic-blue))))
 
-    `(org-document-info
-      ((t (:foreground ,cold-mud :weight bold :slant italic))))
+   `(org-document-info
+     ((t (:foreground ,cold-mud :weight bold :slant italic))))
 
-    `(org-block-begin-line
+   `(org-block-begin-line
      ((t (:background ,midnight-2 :foreground ,mystic-blue :weight bold))))
 
-    `(org-block-background
-      ((t (:background ,midnight-1))))
+   `(org-block-background
+     ((t (:background ,midnight-1))))
 
-    `(org-block-end-line
-      ((t (:inherit org-block-begin-line))))
+   `(org-block-end-line
+     ((t (:inherit org-block-begin-line))))
 
-    `(org-agenda-date-today
-      ((t (:foreground ,jungle-green :background ,midnight-2 :weight bold))))
+   `(org-agenda-date-today
+     ((t (:foreground ,jungle-green :background ,midnight-2 :weight bold))))
 
-    `(org-agenda-date
-      ((t (:foreground ,victory-blue+1))))
+   `(org-agenda-date
+     ((t (:foreground ,victory-blue+1))))
 
-    `(org-agenda-date-weekend
-      ((t (:foreground ,piggy-pink))))
+   `(org-agenda-date-weekend
+     ((t (:foreground ,piggy-pink))))
 
-    `(org-agenda-structure
-      ((t (:inherit header-line))))
+   `(org-agenda-structure
+     ((t (:inherit header-line))))
 
-    `(org-warning
-      ((t (:inherit font-lock-warning-face))))
+   `(org-warning
+     ((t (:inherit font-lock-warning-face))))
 
-    `(org-agenda-clocking
-      ((t (:inherit org-date))))
+   `(org-agenda-clocking
+     ((t (:inherit org-date))))
 
-    `(org-deadline-announce
-      ((t (:inherit font-lock-warning-face))))
+   `(org-deadline-announce
+     ((t (:inherit font-lock-warning-face))))
 
-    `(org-formula
-      ((t (:inherit font-lock-doc-face))))
+   `(org-formula
+     ((t (:inherit font-lock-doc-face))))
 
-    `(org-special-keyword
-      ((t (:inherit font-lock-keyword))))
+   `(org-special-keyword
+     ((t (:inherit font-lock-keyword))))
 
-    ;; dired+
+   ;; dired+
 
-    `(diredp-compressed-file-suffix
-      ((t (:foreground ,deep-gold :weight bold))))
+   `(diredp-compressed-file-suffix
+     ((t (:foreground ,deep-gold :weight bold))))
 
-    `(diredp-date-time
-      ((t (:foreground ,mystic-blue))))
+   `(diredp-date-time
+     ((t (:foreground ,mystic-blue))))
 
-    `(diredp-deletion
-      ((t (:foreground ,brick-red :weight bold :slant italic))))
+   `(diredp-deletion
+     ((t (:foreground ,brick-red :weight bold :slant italic))))
 
-    `(diredp-deletion-file-name
-      ((t (:foreground ,brick-red :underline t))))
+   `(diredp-deletion-file-name
+     ((t (:foreground ,brick-red :underline t))))
 
-    `(diredp-symlink
-      ((t (:foreground ,deep-gold))))
+   `(diredp-symlink
+     ((t (:foreground ,deep-gold))))
 
-    `(diredp-dir-heading
-      ((t (:inherit minibuffer-prompt))))
+   `(diredp-dir-heading
+     ((t (:inherit minibuffer-prompt))))
 
-    `(diredp-display-msg
-      ((t (:inherit default))))
+   `(diredp-display-msg
+     ((t (:inherit default))))
 
-    `(diredp-exec-priv
-      ((t (:foreground ,jungle-green))))
+   `(diredp-exec-priv
+     ((t (:foreground ,jungle-green))))
 
-    `(diredp-write-priv
-      ((t (:foreground ,brick-red))))
+   `(diredp-write-priv
+     ((t (:foreground ,brick-red))))
 
-    `(diredp-read-priv
-      ((t (:foreground ,deep-gold))))
+   `(diredp-read-priv
+     ((t (:foreground ,deep-gold))))
 
-    `(diredp-dir-priv
-      ((t (:foreground ,victory-blue+1 :weight bold))))
+   `(diredp-dir-priv
+     ((t (:foreground ,victory-blue+1 :weight bold))))
 
-    `(diredp-link-priv
-      ((t (:foreground ,deep-gold))))
+   `(diredp-link-priv
+     ((t (:foreground ,deep-gold))))
 
-    `(diredp-other-priv
-      ((t (:foreground ,deep-gold :weight bold))))
+   `(diredp-other-priv
+     ((t (:foreground ,deep-gold :weight bold))))
 
-    `(diredp-rare-priv
-      ((t (:foreground ,brick-red :weight bold))))
+   `(diredp-rare-priv
+     ((t (:foreground ,brick-red :weight bold))))
 
-    `(diredp-no-priv
-      ((t (:foreground ,mystic-blue))))
+   `(diredp-no-priv
+     ((t (:foreground ,mystic-blue))))
 
-    `(diredp-file-name
-      ((t (:foreground ,relaxed-white))))
+   `(diredp-file-name
+     ((t (:foreground ,relaxed-white))))
 
-    `(diredp-file-suffix
-      ((t (:inherit dired-file-name))))
+   `(diredp-file-suffix
+     ((t (:inherit dired-file-name))))
 
-    `(diredp-number
-      ((t (:foreground ,victory-blue))))
+   `(diredp-number
+     ((t (:foreground ,victory-blue))))
 
-    `(diredp-executable-tag
-      ((t (:foreground ,jungle-green :weight bold))))
+   `(diredp-executable-tag
+     ((t (:foreground ,jungle-green :weight bold))))
 
-    `(diredp-flag-mark
-      ((t (:bareground ,brick-red :weight bold))))
+   `(diredp-flag-mark
+     ((t (:bareground ,brick-red :weight bold))))
 
-    `(diredp-flag-mark-line
-      ((t (:background ,midnight-2))))
+   `(diredp-flag-mark-line
+     ((t (:background ,midnight-2))))
 
-    `(diredp-mode-line-marked
-      ((t (:foreground ,brick-red))))
+   `(diredp-mode-line-marked
+     ((t (:foreground ,brick-red))))
 
-    `(diredp-mode-line-flagged
-      ((t (:foreground ,deep-gold))))
+   `(diredp-mode-line-flagged
+     ((t (:foreground ,deep-gold))))
 
-    `(diredp-ignored-file-name
-      ((t (:foreground ,mystic-blue))))
+   `(diredp-ignored-file-name
+     ((t (:foreground ,mystic-blue))))
 
-    ;; nXML
+   ;; nXML
 
-    `(nxml-cdata-section-CDATA
-      ((t (:foreground ,deep-gold))))
+   `(nxml-cdata-section-CDATA
+     ((t (:foreground ,deep-gold))))
 
-    `(nxml-cdata-section-content
-      ((t (:foreground ,cold-mud))))
+   `(nxml-cdata-section-content
+     ((t (:foreground ,cold-mud))))
 
-    `(nxml-attribute-local-name
-      ((t (:foreground ,relaxed-white))))
+   `(nxml-attribute-local-name
+     ((t (:foreground ,relaxed-white))))
 
-    `(nxml-element-local-name
-      ((t (:foreground ,victory-blue))))
+   `(nxml-element-local-name
+     ((t (:foreground ,victory-blue))))
 
-    `(nxml-element-prefix
-      ((t (:foreground ,deep-gold))))
+   `(nxml-element-prefix
+     ((t (:foreground ,deep-gold))))
 
-    ;; git-gutter
+   ;; git-gutter
 
-    `(git-gutter:modified
-      ((t (:background ,bright-gold :foreground ,bright-gold))))
+   `(git-gutter:modified
+     ((t (:background ,bright-gold :foreground ,bright-gold))))
 
-    `(git-gutter:added
-      ((t (:background ,jungle-green :foreground ,jungle-green))))
+   `(git-gutter:added
+     ((t (:background ,jungle-green :foreground ,jungle-green))))
 
-    `(git-gutter:deleted
-      ((t (:background ,brick-red :foreground ,brick-red))))
+   `(git-gutter:deleted
+     ((t (:background ,brick-red :foreground ,brick-red))))
 
-    `(git-gutter:separator
-      ((t (:background ,midnight-2 :foreground ,midnight-2))))
+   `(git-gutter:separator
+     ((t (:background ,midnight-2 :foreground ,midnight-2))))
 
-    `(git-gutter:unchanged
-      ((t (:background ,midnight-3 :foreground ,midnight-3))))
+   `(git-gutter:unchanged
+     ((t (:background ,midnight-3 :foreground ,midnight-3))))
 
-    ))
+   ))
 
 ;;;###autoload
 (when load-file-name
