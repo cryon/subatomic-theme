@@ -69,7 +69,7 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:background ,midnight))))
      	
    `(linum 
-      ((t (:background, midnight :foreground, relaxed-white))))
+      ((t (:background ,midnight :foreground ,mystic-blue))))
 
    `(vertical-border
      ((t (:foreground ,midnight-2))))
