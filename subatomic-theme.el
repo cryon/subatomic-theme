@@ -691,7 +691,25 @@ The theme has to be reloaded after changing anything in this group."
 
     `(nxml-element-prefix
       ((t (:foreground ,deep-gold))))
-   ))
+
+    ;; git-gutter
+
+    `(git-gutter:modified
+      ((t (:background ,bright-gold :foreground ,bright-gold))))
+
+    `(git-gutter:added
+      ((t (:background ,jungle-green :foreground ,jungle-green))))
+
+    `(git-gutter:deleted
+      ((t (:background ,brick-red :foreground ,brick-red))))
+
+    `(git-gutter:separator
+      ((t (:background ,midnight-2 :foreground ,midnight-2))))
+
+    `(git-gutter:unchanged
+      ((t (:background ,midnight-3 :foreground ,midnight-3))))
+
+    ))
 
 ;;;###autoload
 (when load-file-name
