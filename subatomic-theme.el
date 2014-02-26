@@ -466,6 +466,21 @@ The theme has to be reloaded after changing anything in this group."
    `(magit-whitespace-warning-face
      ((t (:inherit font-lock-warning))))
 
+   `(magit-blame-header
+     ((t (:background ,midnight-3))))
+
+   `(magit-blame-sha1
+     ((t (:foreground ,mystic-blue :background ,midnight-3))))
+
+   `(magit-blame-culprit
+     ((t (:foreground ,jungle-green :background ,midnight-3 :bold t))))
+
+   `(magit-blame-time
+     ((t (:foreground ,cold-mud :background ,midnight-3))))
+
+   `(magit-blame-subject
+     ((t (:foreground ,relaxed-white :background ,midnight-3 :bold t))))
+
    ;; compilation
 
    `(compilation-info
