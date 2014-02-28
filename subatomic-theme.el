@@ -724,6 +724,16 @@ The theme has to be reloaded after changing anything in this group."
    `(git-gutter:unchanged
      ((t (:background ,midnight-3 :foreground ,midnight-3))))
 
+   ;; git-gutter-fringe
+
+   `(git-gutter-fr:modified
+     ((t (:background ,bright-gold :foreground ,bright-gold))))
+
+   `(git-gutter-fr:added
+     ((t (:background ,jungle-green :foreground ,jungle-green))))
+
+   `(git-gutter-fr:deleted
+     ((t (:background ,brick-red :foreground ,brick-red))))
    ))
 
 ;;;###autoload
