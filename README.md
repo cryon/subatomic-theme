@@ -4,6 +4,11 @@ About
 An emacs 24 (deftheme) color theme. It's super nice!
 
 ![subatomic.el - kind of nice, eh?](https://raw.github.com/cryon/subatomic/master/readme-files/subatomic.png "subatomic emacs theme")
+Now also featuring a high contrast mode!
+
+![Such contrast!](https://raw.github.com/cryon/subatomic/master/readme-files/subatomic-high-contrast.png "High contrast mode")
+
+<code>M-x customize-group subatomic</code> and toggle "Subatomic High Contrast" to enable.
 
 Installation
 ============
