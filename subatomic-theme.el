@@ -1,10 +1,13 @@
 ;;; subatomic-theme.el --- Low contrast (awesome) emacs color theme
 
-;; Copyright 2012, 2013, 2014 John Olsson
+;; Copyright (C) 2012, 2013, 2014 John Olsson
 
 ;; Author: John Olsson <john@cryon.se>
+;; Maintainer: John Olsson <john@cryon.se>
 ;; URL: https://github.com/cryon/subatomic
-;; Version: 1.5.0
+;; Created: 25th December 2012
+;; Version: 1.5.1
+;; Keywords: color-theme, blue, low contrast
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -18,6 +21,8 @@
 
 ;; You should have received a copy of the GNU General Public License
 ;; along with this file.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Code:
 
 (deftheme subatomic
   "subatomic emacs theme")
