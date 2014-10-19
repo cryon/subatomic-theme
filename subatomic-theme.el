@@ -151,7 +151,7 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:foreground ,victory-blue))))
 
    `(font-lock-warning-face
-     ((t ((:foreground ,brick-red)))))
+     ((t (:foreground ,brick-red))))
 
    `(font-lock-builtin-face
      ((t (:foreground ,deep-gold))))
