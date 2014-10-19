@@ -744,6 +744,41 @@ The theme has to be reloaded after changing anything in this group."
 
    `(git-gutter-fr:deleted
      ((t (:background ,brick-red :foreground ,brick-red))))
+
+   ;; company-mode
+
+   ;; TODO
+   ;; company-tooltip-search           - Face used for the search string in the tooltip
+   ;; company-tooltip-mouse            - Face used for the tooltip item under the mouse
+   ;; company-tooltip-annotation       - Face used for the annotation in the tooltip
+   ;; compant-tooptip-common
+   ;; company-preview-search           - Face used for the search string in the completion preview
+   ;; company-echo                     - Face used for completions in the echo area
+   ;; company-echo-common              - Face used for the common part of completions in the echo area
+
+   `(company-tooltip
+     ((t (:background ,midnight-2 :foreground ,relaxed-white))))
+
+   `(company-tooltip-selection
+     ((t (:background ,midnight-3 :foreground ,full-white :weight bold))))
+
+   `(company-tooltip-common
+     ((t (:background ,midnight-2 :foreground ,jungle-green :weight bold))))
+
+   `(company-preview
+     ((t (:background ,midnight :foreground ,bright-gold))))
+
+   `(company-preview-common
+     ((t (:background ,midnight :foreground ,bright-gold))))
+
+   `(company-tooltip-common-selection
+     ((t (:background ,midnight-3 :foreground ,jungle-green :weight bold))))
+
+   `(company-scrollbar-bg
+     ((t (:background ,midnight-3 :foreground ,midnight-2))))
+
+   `(company-scrollbar-fg
+     ((t (:background ,mystic-blue))))
    ))
 
 ;;;###autoload
