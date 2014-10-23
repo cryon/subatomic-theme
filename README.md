@@ -15,6 +15,7 @@ Installation
 
 MELPA
 -----
+[![MELPA](http://melpa.org/packages/subatomic-theme-badge.svg)](http://melpa.org/#/subatomic-theme)
 
 Subatomic is available in [MELPA](http://melpa.milkbox.net/). Assuming MELPA is added to your archive list you can list the available packages by typing <code>M-x list-packages</code>, look for subatomic-theme, mark it for installation by typing <code>i</code> and then execute (install) by typing <code>x</code>.
 
