@@ -443,6 +443,9 @@ The theme has to be reloaded after changing anything in this group."
    `(magit-log-graph
      ((t (:foreground ,victory-blue))))
 
+   `(magit-log-head-label-head
+     ((t (:foreground ,cold-mud :weight bold))))
+
    `(magit-log-head-label-bisect-bad
      ((t (:foreground ,brick-red))))
 
@@ -459,7 +462,7 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:inherit magit-log-head-label-default))))
 
    `(magit-log-head-label-remote
-     ((t (:inherit magit-log-head-label-default))))
+     ((t (:inherit magit-log-head-label-default :foreground ,deep-gold))))
 
    `(magit-log-head-label-tags
      ((t (:inherit magit-log-head-label-default))))
@@ -468,7 +471,13 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:inherit default))))
 
    `(magit-log-sha1
-     ((t (:foreground ,deep-gold))))
+     ((t (:foreground ,victory-blue :weight bold))))
+
+   `(magit-log-author
+     ((t (:foreground ,jungle-green :weight normal))))
+
+   `(magit-log-date
+     ((t (:inherit font-lock-comment-face :weight normal))))
 
    `(magit-section-title
      ((t (:inherit header-line))))
