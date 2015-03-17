@@ -759,8 +759,6 @@ The theme has to be reloaded after changing anything in this group."
    ;; TODO
    ;; company-tooltip-search           - Face used for the search string in the tooltip
    ;; company-tooltip-mouse            - Face used for the tooltip item under the mouse
-   ;; company-tooltip-annotation       - Face used for the annotation in the tooltip
-   ;; compant-tooptip-common
    ;; company-preview-search           - Face used for the search string in the completion preview
    ;; company-echo                     - Face used for completions in the echo area
    ;; company-echo-common              - Face used for the common part of completions in the echo area
@@ -773,6 +771,9 @@ The theme has to be reloaded after changing anything in this group."
 
    `(company-tooltip-common
      ((t (:background ,midnight-2 :foreground ,jungle-green :weight bold))))
+
+   `(company-tooltip-annotation
+     ((t (:background ,midnight-2 :foreground ,mystic-blue))))
 
    `(company-preview
      ((t (:background ,midnight :foreground ,bright-gold))))
