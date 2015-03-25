@@ -795,7 +795,13 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:background ,midnight-3 ))))
    `(shm-quarantine-face
      ((t (:background ,midnight-red))))
+
+   ;; fill-column-indicator, aka FCI
+
+   `(fci-rule-color
+     ((t (:background ,mystic-blue))))
    ))
+
 
 ;;;###autoload
 (when load-file-name
