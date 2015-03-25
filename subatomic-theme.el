@@ -791,8 +791,10 @@ The theme has to be reloaded after changing anything in this group."
    `(company-scrollbar-fg
      ((t (:background ,mystic-blue))))
 
+   ;; structured-haskell-mode, aka SHM
+
    `(shm-current-face
-     ((t (:background ,midnight-3 ))))
+     ((t (:background ,midnight-3))))
    `(shm-quarantine-face
      ((t (:background ,midnight-red))))
 
