@@ -38,7 +38,7 @@ The theme has to be reloaded after changing anything in this group."
   :group 'faces)
 
 (defcustom subatomic-high-contrast nil
-  "Makes the general contrast higher by setting the background as black"
+  "Makes the general contrast higher by setting the background as black."
   :type 'boolean
   :group 'subatomic)
 
@@ -791,11 +791,19 @@ The theme has to be reloaded after changing anything in this group."
    `(company-scrollbar-fg
      ((t (:background ,mystic-blue))))
 
+   ;; structured-haskell-mode, aka SHM
+
    `(shm-current-face
-     ((t (:background ,midnight-3 ))))
+     ((t (:background ,midnight-3))))
    `(shm-quarantine-face
      ((t (:background ,midnight-red))))
+
+   ;; fill-column-indicator, aka FCI
+
+   `(fci-rule-color
+     ((t (:background ,mystic-blue))))
    ))
+
 
 ;;;###autoload
 (when load-file-name
