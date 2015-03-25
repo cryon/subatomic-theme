@@ -46,6 +46,7 @@ The theme has to be reloaded after changing anything in this group."
       (midnight-1        "#2e3043")
       (midnight-2        "#2a2c3e")
       (midnight-3        "#232533")
+      (midnight-red      "#421d17")
       (mystic-blue       "#696e92")
       (victory-blue      "#8aa6bc")
       (victory-blue+1    "#9dbbd3")
@@ -107,7 +108,7 @@ The theme has to be reloaded after changing anything in this group."
 
    `(mode-line
      ((t (:background ,midnight-3 :foreground ,full-white :weight bold
-		      :box (:line-width 1 :style released-button)))))
+                      :box (:line-width 1 :style released-button)))))
 
    `(powerline-active1
      ((t (:background ,midnight-2))))
@@ -789,6 +790,14 @@ The theme has to be reloaded after changing anything in this group."
 
    `(company-scrollbar-fg
      ((t (:background ,mystic-blue))))
+
+   ;; structured-haskell-mode
+
+   `(shm-current-face
+     ((t (:background ,midnight-3))))
+
+   `(shm-quarantine-face
+     ((t (:background ,midnight-red))))
    ))
 
 ;;;###autoload
