@@ -791,14 +791,15 @@ The theme has to be reloaded after changing anything in this group."
    `(company-scrollbar-fg
      ((t (:background ,mystic-blue))))
 
-   ;; structured-haskell-mode, aka SHM
+   ;; structured-haskell-mode
 
    `(shm-current-face
      ((t (:background ,midnight-3))))
+
    `(shm-quarantine-face
      ((t (:background ,midnight-red))))
 
-   ;; fill-column-indicator, aka FCI
+   ;; fill-column-indicator
 
    `(fci-rule-color
      ((t (:background ,mystic-blue))))
