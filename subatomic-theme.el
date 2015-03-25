@@ -38,7 +38,7 @@ The theme has to be reloaded after changing anything in this group."
   :group 'faces)
 
 (defcustom subatomic-high-contrast nil
-  "Makes the general contrast higher by setting the background as black"
+  "Makes the general contrast higher by setting the background as black."
   :type 'boolean
   :group 'subatomic)
 
@@ -798,7 +798,13 @@ The theme has to be reloaded after changing anything in this group."
 
    `(shm-quarantine-face
      ((t (:background ,midnight-red))))
+
+   ;; fill-column-indicator
+
+   `(fci-rule-color
+     ((t (:background ,mystic-blue))))
    ))
+
 
 ;;;###autoload
 (when load-file-name
