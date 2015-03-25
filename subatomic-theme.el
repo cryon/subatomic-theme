@@ -38,7 +38,7 @@ The theme has to be reloaded after changing anything in this group."
   :group 'faces)
 
 (defcustom subatomic-high-contrast nil
-  "Makes the general contrast higher by setting the background as black"
+  "Makes the general contrast higher by setting the background as black."
   :type 'boolean
   :group 'subatomic)
 
