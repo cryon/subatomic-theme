@@ -794,7 +794,7 @@ The theme has to be reloaded after changing anything in this group."
    ;; structured-haskell-mode
 
    `(shm-current-face
-     ((t (:background ,midnight-3))))
+     ((t (:background ,midnight-2))))
 
    `(shm-quarantine-face
      ((t (:background ,midnight-red))))
