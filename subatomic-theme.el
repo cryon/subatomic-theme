@@ -411,8 +411,14 @@ The theme has to be reloaded after changing anything in this group."
    `(diff-hunk-header
      ((t (:foreground ,full-white))))
 
+   `(diff-refine-removed
+     ((t (:background ,contrast-red :foreground ,relaxed-white :weight bold))))
+
+   `(diff-refine-added
+     ((t (:background ,contrast-green :foreground ,relaxed-white :weight bold))))
+
    `(diff-refine-change
-     ((t (:background ,midnight-3 :foreground ,full-white :weight bold))))
+     ((t (:background ,deep-gold :foreground ,relaxed-white :weight bold))))
 
    ;; magit
 
