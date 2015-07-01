@@ -1,6 +1,6 @@
 ;;; subatomic-theme.el --- Low contrast bluish color theme
 
-;; Copyright (C) 2012, 2013, 2014 John Olsson
+;; Copyright (C) 2012, 2013, 2014, 2015 John Olsson
 
 ;; Author: John Olsson <john@cryon.se>
 ;; Maintainer: John Olsson <john@cryon.se>
