@@ -385,7 +385,7 @@ The theme has to be reloaded after changing anything in this group."
    ;; diff
 
    `(diff-file-header
-     ((t (:background ,midnight :foreground ,victory-blue))))
+     ((t (:background ,midnight :foreground ,relaxed-white :weight bold))))
 
    `(diff-header
      ((t (:inherit default :foreground ,mystic-blue))))
@@ -409,7 +409,7 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:foreground ,jungle-green))))
 
    `(diff-hunk-header
-     ((t (:foreground ,full-white))))
+     ((t (:foreground ,axiomatic-purple))))
 
    `(diff-refine-removed
      ((t (:background ,contrast-red :foreground ,relaxed-white :weight bold))))
@@ -419,6 +419,178 @@ The theme has to be reloaded after changing anything in this group."
 
    `(diff-refine-change
      ((t (:background ,deep-gold :foreground ,relaxed-white :weight bold))))
+
+   ;; magit (new faces since 2.1.0)
+   ;; there may be some duplication with the older magit faces.
+   ;; they should be merged over time.
+
+   `(magit-bisect-bad
+     ((t (:foreground ,brick-red))))
+
+   `(magit-bisect-good
+     ((t (:foreground ,jungle-green))))
+
+   `(magit-bisect-skip
+     ((t (:inherit default))))
+
+   `(magit-blame-date
+     ((t (:foreground ,cold-mud :background ,midnight-3))))
+
+   `(magit-blame-hash
+     ((t (:foreground ,mystic-blue :background ,midnight-3))))
+
+   `(magit-blame-heading
+     ((t (:background ,midnight-3))))
+
+   `(magit-blame-name
+     ((t (:foreground ,jungle-green :background ,midnight-3 :bold t))))
+
+   `(magit-blame-summary
+     ((t (:foreground ,relaxed-white :background ,midnight-3 :bold t))))
+
+   `(magit-branch-current
+     ((t (:foreground ,jungle-green :weight bold :underline t))))
+
+   `(magit-branch-local
+     ((t (:foreground ,jungle-green))))
+
+   `(magit-branch-remote
+     ((t (:foreground ,cold-mud))))
+
+   ;;`(magit-cherry-equivalent ((t (:inherit default))))
+   ;;`(magit-cherry-unmatched ((t (:inherit default))))
+
+   `(magit-diff-added
+     ((t (:inherit diff-added))))
+
+   `(magit-diff-added-highlight
+     ((t (:inherit magit-diff-added
+          :background ,(if subatomic-high-contrast midnight-3 midnight-1)))))
+
+   ;;`(magit-diff-base ((t (:inherit default))))
+   ;;`(magit-diff-base-highlight ((t (:inherit default))))
+   ;;`(magit-diff-conflict-heading ((t (:inherit default))))
+
+   `(magit-diff-context
+     ((t (:inherit default))))
+
+   `(magit-diff-context-highlight
+     ((t (:inherit magit-diff-context
+          :background ,(if subatomic-high-contrast midnight-3 midnight-1)))))
+
+   `(magit-diff-file-heading
+     ((t (:inherit diff-file-header))))
+
+   ;;`(magit-diff-file-heading-highlight ((t (:inherit default))))
+
+   `(magit-diff-file-heading-selection
+     ((t (:inherit default))))
+
+   `(magit-diff-hunk-heading
+     ((t (:inherit diff-hunk-header))))
+
+   `(magit-diff-hunk-heading-highlight
+     ((t (:inherit hunk-heading-highlight
+          :background ,(if subatomic-high-contrast midnight-3 midnight-1)))))
+
+   `(magit-diff-hunk-heading-selection
+     ((t (:inherit magit-diff-hunk-heading-highlight))))
+
+   `(magit-diff-lines-boundary
+     ((t (:inherit region))))
+
+   `(magit-diff-lines-heading
+     ((t (:inherit magit-diff-hunk-heading-highlight))))
+
+   ;;`(magit-diff-our ((t (:inherit default))))
+   ;;`(magit-diff-our-highlight ((t (:inherit default))))
+
+   `(magit-diff-removed
+     ((t (:inherit diff-removed))))
+
+   `(magit-diff-removed-highlight
+     ((t (:inherit magit-diff-removed
+          :background ,(if subatomic-high-contrast midnight-3 midnight-1)))))
+
+   ;;`(magit-diff-their ((t (:inherit default))))
+   ;;`(magit-diff-their-highlight ((t (:inherit default))))
+
+   `(magit-diff-whitespace-warning
+     ((t (:inherit trailing-whitespace))))
+
+   `(magit-diffstat-added
+     ((t (:foreground ,jungle-green))))
+
+   `(magit-diffstat-removed
+     ((t (:foreground ,brick-red))))
+
+   `(magit-dimmed
+     ((t (:inherit font-lock-comment-face))))
+
+   ;;`(magit-filename ((t (:inherit default))))
+
+   `(magit-hash
+     ((t (:foreground ,victory-blue :weight bold))))
+
+   ;;`(magit-head ((t (:inherit default))))
+   ;;`(magit-header-line ((t (:inherit default))))
+   ;;`(magit-log-author ((t (:inherit default))))
+   ;;`(magit-log-date ((t (:inherit default))))
+   ;;`(magit-log-graph ((t (:inherit default))))
+
+   `(magit-process-ng
+     ((t (:foreground ,brick-red))))
+
+   `(magit-process-ok
+     ((t (:foreground ,jungle-green))))
+
+   `(magit-reflog-amend
+     ((t (:foreground ,victory-blue))))
+
+   `(magit-reflog-checkout
+     ((t (:foreground ,victory-blue))))
+
+   `(magit-reflog-cherry-pick
+     ((t :foreground ,victory-blue)))
+
+   `(magit-reflog-commit
+     ((t (:foreground ,victory-blue))))
+
+   `(magit-reflog-merge
+     ((t (:foreground ,victory-blue))))
+
+   `(magit-reflog-other
+     ((t (:foreground ,victory-blue))))
+
+   `(magit-reflog-rebase
+     ((t (:foreground ,victory-blue))))
+
+   `(magit-reflog-remote
+     ((t (:foreground ,victory-blue))))
+
+   `(magit-reflog-reset
+     ((t (:foreground ,victory-blue))))
+
+   `(magit-section-heading
+     ((t (:foreground ,deep-gold :bold t))))
+
+   ;;`(magit-section-heading-selection ((t (:inherit default))))
+
+   `(magit-section-highlight
+     ((t (:inherit hl-line))))
+
+   ;;`(magit-sequence-done ((t (:inherit default))))
+   ;;`(magit-sequence-drop ((t (:inherit default))))
+   ;;`(magit-sequence-head ((t (:inherit default))))
+   ;;`(magit-sequence-onto ((t (:inherit default))))
+   ;;`(magit-sequence-part ((t (:inherit default))))
+   ;;`(magit-sequence-pick ((t (:inherit default))))
+   ;;`(magit-sequence-stop ((t (:inherit default))))
+   ;;`(magit-signature-bad ((t (:inherit default))))
+   ;;`(magit-signature-good ((t (:inherit default))))
+   ;;`(magit-signature-untrusted ((t (:inherit default))))
+   ;;`(magit-tag ((t (:inherit default))))
+   ;;`(magit-valid-signature ((t (:inherit default))))
 
    ;; magit
 
