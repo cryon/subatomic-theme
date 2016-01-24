@@ -12,10 +12,12 @@ Now also featuring a high contrast mode!
 
 To customize the apperance of comment delimiter characters toggle <code>subatomic-more-visible-comment-delimiters</code>
 
-Default
+**Default**
+
 ![Default delimiters](https://raw.github.com/cryon/subatomic/master/readme-files/darker-delimiters.png "Default delimiters")
 
-Brighter delimiters
+**Brighter delimiters**
+
 ![Brighter delimiters](https://raw.github.com/cryon/subatomic/master/readme-files/brighter-delimiters.png "Brighter delimiters")
 
 Installation
