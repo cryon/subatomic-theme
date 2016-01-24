@@ -1084,6 +1084,58 @@ The theme has to be reloaded after changing anything in this group."
 
    `(fci-rule-color
      ((t (:background ,mystic-blue))))
+
+   ;; basic auctex support
+
+   `(font-latex-sectioning-0-face
+     ((t (:inherit outline-1 :height 1.1))))
+
+   `(font-latex-sectioning-1-face
+     ((t (:inherit outline-2 :height 1.1))))
+
+   `(font-latex-sectioning-2-face
+     ((t (:inherit outline-3 :height 1.1))))
+
+   `(font-latex-sectioning-3-face
+     ((t (:inherit outline-4 :height 1.1))))
+
+   `(font-latex-sectioning-4-face
+     ((t (:inherit outline-5 :height 1.1))))
+
+   `(font-latex-sectioning-5-face
+     ((t (:inherit outline-6 :height 1.1))))
+
+   `(font-latex-bold-face
+     ((t (:inherit bold :foreground ,relaxed-white))))
+
+   `(font-latex-italic-face
+     ((t (:inherit italic :foreground ,relaxed-white))))
+
+   `(font-latex-math-face
+     ((t (:foreground ,axiomatic-purple))))
+
+   `(font-latex-slide-title-face
+     ((t (:inherit font-lock-type-face :weight bold :height 1.2))))
+
+   `(font-latex-string-face
+     ((t (:inherit font-lock-string-face))))
+
+   `(font-latex-subscript-face
+     ((t (:height 0.8))))
+
+   `(font-latex-superscript-face
+     ((t (:height 0.8))))
+
+   `(font-latex-warning-face
+     ((t (:inherit font-lock-warning-face))))
+
+   `(font-latex-doctex-documentation-face
+     ((t (:background unspecified))))
+
+   `(font-latex-doctex-preprocessor-face
+     ((t (:inherit (font-latex-doctex-documentation-face
+                    font-lock-builtin-face font-lock-preprocessor-face)))))
+
    ))
 
 ;;;###autoload
