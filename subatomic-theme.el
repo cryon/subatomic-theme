@@ -971,6 +971,100 @@ The theme has to be reloaded after changing anything in this group."
    `(company-scrollbar-fg
      ((t (:background ,mystic-blue))))
 
+   ;; helm
+
+   `(helm-header
+     ((t (:inherit header-line :height 1.3 :bold t))))
+
+   `(helm-source-header
+     ((t (:background ,midnight-1 :foreground ,axiomatic-purple :weight bold :height 1.1))))
+
+   `(helm-selection
+     ((t (:background ,midnight-2 :foreground ,deep-gold :weight bold))))
+
+   `(helm-candidate-number
+     ((t (:foreground ,jungle-green))))
+
+   `(helm-match
+     ((t (:background ,undergrowth-green :foreground ,full-white :weight bold))))
+
+   `(helm-M-x-key
+     ((t (:foreground ,victory-blue))))
+
+   `(helm-prefarg
+     ((t (:foreground ,deep-gold))))
+
+   `(helm-selection-line
+     ((t (:background ,midnight-2 :weight bold))))
+
+   `(helm-match-item
+     ((t (:inherit match))))
+
+   `(helm-buffer-saved-out
+     ((t (:foreground ,cold-mud))))
+
+   `(helm-buffer-not-saved
+     ((t (:foreground ,piggy-pink))))
+
+   `(helm-buffer-size
+     ((t (:foreground ,mystic-blue))))
+
+   `(helm-buffer-file
+     ((t (:inherit default))))
+
+   `(helm-buffer-directory
+     ((t (:foreground ,victory-blue))))
+
+   `(helm-buffer-process
+     ((t (:inherit helm-buffer-directory))))
+
+   `(helm-grep-match
+     ((t (:inherit helm-match))))
+
+   `(helm-grep-file
+     ((t (:foreground ,victory-blue))))
+
+   `(helm-moccur-buffer
+     ((t (:inherit helm-grep-file))))
+
+   `(helm-grep-lineno
+     ((t (:foreground ,mystic-blue))))
+
+   `(helm-ff-file
+     ((t (:inherit default))))
+
+   `(helm-ff-directory
+     ((t (:inherit eshell-ls-directory))))
+
+   `(helm-ff-executable
+     ((t (:inherit eshell-ls-executable))))
+
+   `(helm-ff-invalid-symlink
+     ((t (:inherit eshell-ls-missing))))
+
+   `(helm-ff-symlink
+     ((t (:inherit eshell-ls-symlink))))
+
+   `(helm-ff-prefix
+     ((t (:inherit default :foreground ,mystic-blue))))
+
+   ;; TODO
+   ;; helm-top-columns                 - Face for helm help string in minibuffer.
+   ;; helm-visible-mark                - Face for visible mark.
+   ;; helm-separator                   - Face for multiline source separator.
+   ;; helm-action                      - Face for action lines in the helm action buffer.
+   ;; helm-header-line-left-margin     - Face used to highlight helm-header sign in left-margin.
+   ;; helm-moccur-buffer               - Face used to highlight moccur buffer names.
+   ;; helm-grep-finish                 - Face used in mode line when grep is finish.
+   ;; helm-grep-cmd-line               - Face used to highlight grep command line when no results.
+   ;; helm-resume-need-update          - Face used to flash moccur buffer when it needs update.
+   ;; helm-locate-finish               - Face used in mode line when locate process is finish.
+   ;; helm-helper                      - Face for helm help string in minibuffer.
+   ;; helm-ff-dotted-directory         - Face used for dotted directories in `helm-find-files'.
+   ;; helm-ff-dotted-symlink-directory - Face used for dotted symlinked directories in `helm-find-files'.
+   ;; helm-history-deleted             - Face used for deleted files in `file-name-history'.
+   ;; helm-history-remote              - Face used for remote files in `file-name-history'.
+
    ;; structured-haskell-mode
 
    `(shm-current-face
