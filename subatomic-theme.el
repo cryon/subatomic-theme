@@ -6,7 +6,7 @@
 ;; Maintainer: John Olsson <john@cryon.se>
 ;; URL: https://github.com/cryon/subatomic
 ;; Created: 25th December 2012
-;; Version: 1.7.0
+;; Version: 1.8.0
 ;; Keywords: color-theme, blue, low contrast
 
 ;; This file is free software: you can redistribute it and/or modify
