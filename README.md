@@ -10,6 +10,14 @@ Now also featuring a high contrast mode!
 
 <code>M-x customize-group subatomic</code> and toggle "Subatomic High Contrast" to enable.
 
+To customize the apperance of comment delimiter characters toggle <code>subatomic-more-visible-comment-delimiters</code>
+
+Default
+![Default delimiters](https://raw.github.com/cryon/subatomic/master/readme-files/darker-delimiters.png "Default delimiters")
+
+Brighter delimiters
+![Brighter delimiters](https://raw.github.com/cryon/subatomic/master/readme-files/brighter-delimiters.png "Brighter delimiters")
+
 Installation
 ============
 

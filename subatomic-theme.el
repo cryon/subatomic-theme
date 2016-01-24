@@ -42,6 +42,11 @@ The theme has to be reloaded after changing anything in this group."
   :type 'boolean
   :group 'subatomic)
 
+(defcustom subatomic-more-visible-comment-delimiters nil
+  "Makes the comment delimiter characters the same color as the rest of the comment"
+  :type 'boolean
+  :group 'subatomic)
+
 (let ((midnight          (if subatomic-high-contrast "#000000" "#303347"))
       (midnight-1        "#2e3043")
       (midnight-2        "#2a2c3e")
@@ -181,7 +186,9 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:foreground ,jungle-green))))
 
    `(font-lock-comment-delimiter-face
-     ((t (:foreground ,midnight-3))))
+     ((t (:foreground ,(if subatomic-more-visible-comment-delimiters
+                           mystic-blue
+                         midnight-3)))))
 
    `(font-lock-doc-face
      ((t (:foreground ,axiomatic-purple :italic t))))
