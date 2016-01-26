@@ -987,13 +987,13 @@ The theme has to be reloaded after changing anything in this group."
      ((t (:background ,midnight-1 :foreground ,axiomatic-purple :weight bold :height 1.1))))
 
    `(helm-selection
-     ((t (:background ,midnight-2 :foreground ,deep-gold :weight bold))))
+     ((t (:background ,midnight-2 :weight bold))))
 
    `(helm-candidate-number
      ((t (:foreground ,jungle-green))))
 
    `(helm-match
-     ((t (:background ,undergrowth-green :foreground ,full-white :weight bold))))
+     ((t (:foreground ,jungle-green :weight bold :underline t))))
 
    `(helm-M-x-key
      ((t (:foreground ,victory-blue))))
