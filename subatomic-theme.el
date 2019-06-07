@@ -123,7 +123,7 @@ The theme has to be reloaded after changing anything in this group."
    `(powerline-active2
      ((t (:background ,midnight-1))))
 
-   `(modeline-inactive
+   `(mode-line-inactive
      ((t (:background ,midnight-2 :foreground ,mystic-blue))))
 
    `(powerline-inactive1
