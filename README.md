@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project has moved to https://codeberg.org/cryon/subatomic-theme
+
 About
 =====
 
